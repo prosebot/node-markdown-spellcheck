@@ -8,7 +8,8 @@ describe('filters', () => {
       { word: 'AIs', index: 0 }, // controversial, not detected
       { word: 'COntains', index: 0 },
       { word: 'contaiNS', index: 0 },
-      { word: 'A1', index: 0 }
+      { word: 'A1', index: 0 },
+      { word: 'A-1', index: 0 }
     ]);
 
     expect(filteredList).toEqual([
